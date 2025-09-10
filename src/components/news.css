@@ -1,0 +1,326 @@
+/* =================== GLOBAL =================== */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #7E7E81;
+}
+
+/* =================== HEADERS =================== */
+.con1 {
+    width: 100%;
+    border: 1px solid #262626;
+    border-top: none;
+    border-left: none;
+    padding: 20px;
+    padding-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 80px;
+    font-weight: 500px;
+    color: white;
+}
+
+.containerr {
+    color: white;
+    border: #262626 1px solid;
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+
+.headline {
+    font-size: 55px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.info {
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.info .informed {
+    font-size: 55px;
+    margin-right: 60px;
+}
+
+.informed {
+    display: inline-flex;
+    font-size: 55px;
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+/* =================== LIKE BUTTON =================== */
+.like-button {
+    display: block;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.heart {
+    font-size: 24px;
+    color: white;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.heart.liked {
+    color: #ff4757;
+}
+
+#like-count {
+    color: white;
+    font-size: 16px;
+}
+
+/* =================== CONTAINER 22 =================== */
+.container22 {
+    border: #262626 1px solid;
+    padding-bottom: 80px;
+    display: inline-flex;
+}
+
+.info .details {
+    font-size: 16px;
+    color: #98989A;
+}
+
+.conp1,
+.conp2{
+  color: #98989A;
+}
+/* =================== IMAGES =================== */
+.imgg {
+    margin-top: 65px;
+    float: inline-start;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.clearfix {
+    overflow: auto;
+    clear: both;
+}
+
+.p1 {
+    text-align: left;
+    font-size: 32px;
+    padding-top: 120px;
+    padding-left: 30px;
+    color: white;
+}
+
+.p2 {
+    color: #98989A;
+    font-size: x-large;
+}
+
+.pre1 {
+    font-size: 18px;
+    color: #98989A;
+}
+
+.pre2 {
+    color: white;
+}
+
+.container33 {
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-align: left;
+    padding: 20px; /* ✅ fixed spacing */
+}
+
+.imgg5,
+.imgg6,
+.imgg7 {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* =================== BUTTONS =================== */
+.read-more-button,
+.read-more-button3,
+.read-more-button4 {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #aaa;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    text-decoration: none;
+    gap: 6px;
+}
+
+.read-more-button:hover,
+.read-more-button3:hover,
+.read-more-button4:hover {
+    border-color: #ffdd57;
+    color: white;
+}
+
+.send-button {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #aaa;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.send-button:hover {
+    color: white;
+}
+
+.send-button i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.send-button:hover i {
+    color: white;
+}
+
+/* =================== KON =================== */
+.kon {
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px #262626 solid;
+    padding: 20px;
+}
+
+.kon1 {
+    display: inline-block;
+    width: 200px;
+    border: 1px #262626 solid;
+    padding: 20px 24px;
+    color: #98989A;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.kon2 {
+    background-color: #191919;
+    color: white;
+}
+
+/* Responsive for KON */
+@media (max-width: 768px) {
+    .kon1 {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+.divfy3{
+          color: #98989A;
+
+}
+
+/* =================== LOLO + DIVFY3 FIX =================== */
+@media (max-width: 768px) {
+    .lolo,
+    .divfy3 {
+        width: 100%;
+        display: block;
+    }
+    .divfy3 {
+        margin-top: 15px;
+    }
+}
+
+/* =================== GRID =================== */
+.grid-layout-container44 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* ✅ spacing */
+    border: 1px solid #262626;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.grid-layout-box44 {
+    padding: 20px;
+    border: 1px solid #262626;
+    background-color: #191919;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.grid-layout-box44 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #262626;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 6px;
+}
+
+.grid-layout-box44 img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.gridp1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gridp2 {
+    color: #98989A;
+    font-size: 16px;
+}
+
+/* Responsive Grid */
+@media (max-width: 1024px) {
+    .grid-layout-container44 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-layout-container44 {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 10px;
+    }
+    .grid-layout-box44 {
+        padding: 15px;
+    }
+    .gridp1 {
+        font-size: 18px;
+    }
+    .gridp2 {
+        font-size: 14px;
+    }
+}
