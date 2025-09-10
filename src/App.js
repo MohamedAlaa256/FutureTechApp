@@ -1,7 +1,7 @@
 import './App.css';
 import { Component } from 'react';
 import Navbar from './components/Navbar';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home';
 import News from './components/news';
 import Contact from './components/Contact';
@@ -30,7 +30,9 @@ class App extends Component {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="*" element={<Notfound />} />
+
+            {/* Redirect any unknown route back to Home */}
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
       </HashRouter>
