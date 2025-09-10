@@ -1,14 +1,13 @@
 import './App.css';
 import { Component } from 'react';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import News from './components/news'; // Corrected import for News component
+import News from './components/news';
 import Contact from './components/Contact';
 import About from './components/About';
 import Notfound from './components/Notfound';
 import Blog from './components/Blog';
-
 
 class App extends Component {
   constructor() {
@@ -22,19 +21,19 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/news" element={<News />} /> {/* Updated to News */}
-            <Route path="/contact" element={<Contact />} /> {/* Updated path to match route */}
-            <Route path="/about" element={<About />} /> {/* Updated path to match route */}
-            <Route path="*" element={<Notfound />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="*" element={<Notfound />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
