@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FutureTechApp/static/css/main.d226293a.css",
-    "main.js": "/FutureTechApp/static/js/main.ae9f8843.js",
+    "main.js": "/FutureTechApp/static/js/main.0a690da5.js",
     "static/js/488.d908e617.chunk.js": "/FutureTechApp/static/js/488.d908e617.chunk.js",
     "static/media/TopicsCoverage.png": "/FutureTechApp/static/media/TopicsCoverage.d77d274855e5ea32e8e7.png",
     "static/media/TopicsVarietyImage.png": "/FutureTechApp/static/media/TopicsVarietyImage.88d72f1744135e8a1e54.png",
@@ -19,11 +19,11 @@
     "static/media/sendIcon.png": "/FutureTechApp/static/media/sendIcon.deecc6e72cd2c633ec83.png",
     "index.html": "/FutureTechApp/index.html",
     "main.d226293a.css.map": "/FutureTechApp/static/css/main.d226293a.css.map",
-    "main.ae9f8843.js.map": "/FutureTechApp/static/js/main.ae9f8843.js.map",
+    "main.0a690da5.js.map": "/FutureTechApp/static/js/main.0a690da5.js.map",
     "488.d908e617.chunk.js.map": "/FutureTechApp/static/js/488.d908e617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d226293a.css",
-    "static/js/main.ae9f8843.js"
+    "static/js/main.0a690da5.js"
   ]
 }
