@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/FutureTechProject/static/css/main.d226293a.css",
-    "main.js": "/FutureTechProject/static/js/main.3de1d40d.js",
-    "static/js/488.d908e617.chunk.js": "/FutureTechProject/static/js/488.d908e617.chunk.js",
-    "static/media/TopicsCoverage.png": "/FutureTechProject/static/media/TopicsCoverage.d77d274855e5ea32e8e7.png",
-    "static/media/TopicsVarietyImage.png": "/FutureTechProject/static/media/TopicsVarietyImage.88d72f1744135e8a1e54.png",
-    "static/media/anagebta5ry.png": "/FutureTechProject/static/media/anagebta5ry.1915f8c3706d4766db78.png",
-    "static/media/Sub Containerc4 (10).png": "/FutureTechProject/static/media/Sub Containerc4 (10).d1875081cc2503b6d201.png",
-    "static/media/Sub Containerc1 (10).png": "/FutureTechProject/static/media/Sub Containerc1 (10).4a5a67a9828eb5e921a1.png",
-    "static/media/Sub Containerc2 (10).png": "/FutureTechProject/static/media/Sub Containerc2 (10).0a62a8b5f205f70afe04.png",
-    "static/media/Image.png": "/FutureTechProject/static/media/Image.0c4af29f98e090cf37ac.png",
-    "static/media/Sub Containerc3 (10).png": "/FutureTechProject/static/media/Sub Containerc3 (10).60737f29816a98e67939.png",
-    "static/media/Image (2).png": "/FutureTechProject/static/media/Image (2).b4b062e038433f769f78.png",
-    "static/media/Image (3).png": "/FutureTechProject/static/media/Image (3).02ea5356220781a36d0f.png",
-    "static/media/Image (1).png": "/FutureTechProject/static/media/Image (1).78e40a8882a2eefb5316.png",
-    "static/media/heartIcon.png": "/FutureTechProject/static/media/heartIcon.e4ffc7816448cc0e4475.png",
-    "static/media/commentIcon.png": "/FutureTechProject/static/media/commentIcon.a7384ecae7d2b36a6d50.png",
-    "static/media/sendIcon.png": "/FutureTechProject/static/media/sendIcon.deecc6e72cd2c633ec83.png",
-    "index.html": "/FutureTechProject/index.html",
-    "main.d226293a.css.map": "/FutureTechProject/static/css/main.d226293a.css.map",
-    "main.3de1d40d.js.map": "/FutureTechProject/static/js/main.3de1d40d.js.map",
-    "488.d908e617.chunk.js.map": "/FutureTechProject/static/js/488.d908e617.chunk.js.map"
+    "main.css": "/FutureTechApp/static/css/main.d226293a.css",
+    "main.js": "/FutureTechApp/static/js/main.bd8e77f8.js",
+    "static/js/488.d908e617.chunk.js": "/FutureTechApp/static/js/488.d908e617.chunk.js",
+    "static/media/TopicsCoverage.png": "/FutureTechApp/static/media/TopicsCoverage.d77d274855e5ea32e8e7.png",
+    "static/media/TopicsVarietyImage.png": "/FutureTechApp/static/media/TopicsVarietyImage.88d72f1744135e8a1e54.png",
+    "static/media/anagebta5ry.png": "/FutureTechApp/static/media/anagebta5ry.1915f8c3706d4766db78.png",
+    "static/media/Sub Containerc4 (10).png": "/FutureTechApp/static/media/Sub Containerc4 (10).d1875081cc2503b6d201.png",
+    "static/media/Sub Containerc1 (10).png": "/FutureTechApp/static/media/Sub Containerc1 (10).4a5a67a9828eb5e921a1.png",
+    "static/media/Sub Containerc2 (10).png": "/FutureTechApp/static/media/Sub Containerc2 (10).0a62a8b5f205f70afe04.png",
+    "static/media/Image.png": "/FutureTechApp/static/media/Image.0c4af29f98e090cf37ac.png",
+    "static/media/Sub Containerc3 (10).png": "/FutureTechApp/static/media/Sub Containerc3 (10).60737f29816a98e67939.png",
+    "static/media/Image (2).png": "/FutureTechApp/static/media/Image (2).b4b062e038433f769f78.png",
+    "static/media/Image (3).png": "/FutureTechApp/static/media/Image (3).02ea5356220781a36d0f.png",
+    "static/media/Image (1).png": "/FutureTechApp/static/media/Image (1).78e40a8882a2eefb5316.png",
+    "static/media/heartIcon.png": "/FutureTechApp/static/media/heartIcon.e4ffc7816448cc0e4475.png",
+    "static/media/commentIcon.png": "/FutureTechApp/static/media/commentIcon.a7384ecae7d2b36a6d50.png",
+    "static/media/sendIcon.png": "/FutureTechApp/static/media/sendIcon.deecc6e72cd2c633ec83.png",
+    "index.html": "/FutureTechApp/index.html",
+    "main.d226293a.css.map": "/FutureTechApp/static/css/main.d226293a.css.map",
+    "main.bd8e77f8.js.map": "/FutureTechApp/static/js/main.bd8e77f8.js.map",
+    "488.d908e617.chunk.js.map": "/FutureTechApp/static/js/488.d908e617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d226293a.css",
-    "static/js/main.3de1d40d.js"
+    "static/js/main.bd8e77f8.js"
   ]
 }
